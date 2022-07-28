@@ -23,7 +23,7 @@ const [timedText, setTimedText] = useState(text);
           params: {
             q: timedText,
             target: language.value,
-            key: '',
+            key: import.meta.env.VITE_API_KEY,
           },
         }
       );
