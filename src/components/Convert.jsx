@@ -23,7 +23,7 @@ const [timedText, setTimedText] = useState(text);
           params: {
             q: timedText,
             target: language.value,
-            key: 'AIzaSyD8cYCUynwIA_RZNzpa8qYzfiUmxqLhW1A',
+            key: '',
           },
         }
       );
